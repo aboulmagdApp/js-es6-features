@@ -6,9 +6,9 @@ import paginationView from './views/paginationView.js';
 import bookmarksView from './views/BookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 
-import 'core-js/stable';
-import 'regenerator-runtime/runtime'; //polyfill async await
-
+// import 'core-js/stable';
+// import 'regenerator-runtime/runtime'; //polyfill async await
+import { async } from 'regenerator-runtime';
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
